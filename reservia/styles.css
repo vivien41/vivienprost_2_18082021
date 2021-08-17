@@ -1,0 +1,44 @@
+/* General */
+html, 
+body {
+    font-family: Raleway;
+}
+
+.flexCentre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexAround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.decorationnone {
+    text-decoration: none;
+}
+/* Nav */
+.sizeliens {
+    width: 45%;
+}
+.sizelien {
+    width: 140px;
+    height: 99px;
+}
+.colorliens13 {
+    color: blue;
+}
+.colorliens2 {
+    color: black;
+}
+.bordurenav {
+    border-top: 1px solid blue;
+}
+.margelogo {
+    margin-bottom: 10px;
+}
