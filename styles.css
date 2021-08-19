@@ -42,3 +42,53 @@ body {
 .margelogo {
     margin-bottom: 10px;
 }
+.title {
+    font-size: 32px;
+    margin: 10px 0;
+}
+.subtitle {
+    margin: 6px 0;
+}
+.fa-map-marker-alt {
+    font-size: 17px;
+}
+/*Header */
+.bordursearch {
+    width: 400px;
+    border-radius: 10px;
+    border: 0.5px solid #f2f2f2 ;
+}
+.iconesize {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 0px 0px 10px;
+}
+.rechercher {
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+.backgris {
+    background-color: #f2f2f2;
+}
+.bordurnone {
+    border: none;
+}
+.paddingsearch {
+    padding-left: 20px;
+}
+.buttonsearch {
+    height: 50px;
+    width: 200px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
+}
+.backbleu {
+    background-color: blue;
+}
+.colorbleuclair{
+    background-color: #deebff;
+}
