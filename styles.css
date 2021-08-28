@@ -1,0 +1,443 @@
+/* General */
+html, 
+body {
+    font-family: Raleway;
+}
+
+.flexCentre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexAround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexColumnCentre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flexColumnAround {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.flexColumnBetween {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.decorationnone {
+    text-decoration: none;
+}
+.texteGras {
+    font-weight: bold;
+}
+/* Nav */
+.sizeliens {
+    width: 100%;
+}
+.sizelien {
+    width: 140px;
+    height: 99px;
+}
+.sizelien12 {
+    margin-left: 60%;
+}
+.colorliens13 {
+    color: blue;
+}
+.colorliens2 {
+    color: black;
+}
+.colorBleu {
+    color: blue;
+}
+.colorGris {
+    color: #f2f2f2;
+}
+.bordurenav {
+    border-top: 1px solid transparent;
+}
+.bordurenav:hover {
+    border-top: 1px solid #0065fc;
+    cursor: pointer;
+}
+.bordurenav:hover > a {
+    color: #0065fc;
+}
+.margelogo {
+    margin-bottom: 10px;
+}
+.title {
+    font-size: 32px;
+    margin: 10px 0;
+}
+.subtitle {
+    margin: 6px 0;
+}
+.fa-map-marker-alt {
+    font-size: 17px;
+}
+/*Header */
+.bordursearch {
+    width: 400px;
+    border-radius: 10px;
+    border: 0.5px solid #f2f2f2 ;
+}
+.iconesize {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 0px 0px 10px;
+}
+.rechercher {
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+.backgris {
+    background-color: #f2f2f2;
+}
+.bordurnone {
+    border: none;
+}
+.paddingsearch {
+    padding-left: 20px;
+}
+.buttonsearch {
+    height: 50px;
+    width: 200px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
+}
+.buttonsearch:hover {
+    color: #0065fc;
+    background-color: #f2f2f2;
+}
+.backbleu {
+    background-color: blue;
+}
+.colorbleuclair{
+    background-color: #deebff;
+}
+.Filtres {
+    display: flex;
+    align-items: center;
+}
+.margefiltres {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.margefiltresTitre {
+    margin-right: 20px;
+}
+.filtrestexteIcone {
+border: 2px solid #f2f2f2;
+height: 50px;
+border-radius: 30px;
+margin-right: 20px;
+}
+.filtresIcone {
+    border-radius: 25px;
+    padding: 20px 20px 20px 20px;
+    font-size: 16px !important;
+    color: #0065fc;
+    background-color: #deebff;
+}
+.icone {
+    font-size: 16px !important;
+}
+section .filtresicone:first-child {
+    font-size: 14px !important;
+    }
+.filtrestexteIcone:hover > .filtrestexte {
+    color: #0065fc;
+}
+.filtrestexteIcone:hover > .filtresIcone {
+    color: white;
+    background-color: #0065fc;
+}
+.filtrestexte {
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0px 25px 25px 0px;
+}
+/* info icone */
+.info {
+    display: flex;
+    align-items: center;
+}
+.parentIcone {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f2f2f2;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+/*Hébergement*/
+.sizehebergements {
+    flex: 2;
+    height: 650px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.sizepopulaire {
+    flex: 1;
+    height: 650px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.imgHebergements1 {
+    background-image: url("./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0px 0px;
+}
+.imgHebergements2 {
+    background-image: url("./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0px 0px;
+}
+.imgHebergements3 {
+    background-image: url("./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0px 0px;
+}
+.imgHebergements4 {
+    background-image: url("./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0px 0px;
+}
+.imgHebergements5 {
+    background-image: url("./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0px 0px;
+}
+.imgHebergements6 {
+    background-image: url("./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0px 0px;
+}
+.blocHebergements {
+    padding: 20px;
+    padding-right: 20px;
+}
+.titrehebergement {
+    min-height: 44px;
+}
+.cubeHebergements {
+    width: 30%;
+    height: auto;
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
+}
+.cubeHebergements:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.cubedetailHebergements {
+    width: 90%;
+}
+.bloc1 {
+margin-bottom: 10px;
+}
+.bloc2 {
+margin-top: 10px;
+}
+/* Populaires*/
+.blocpopulaires {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.imgpopulaires1 {
+    background-image: url("./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0px 0px 15px;
+}
+.cubepopulaires {
+    background-color: white;
+    height: auto;
+    padding: 1% 0px 1px 1px;
+    border-radius: 20px;
+}
+.cubepopulaires:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.blocpopulaires12 {
+    margin-bottom: 22px;
+}
+.cubedetailPopulaires {
+    width: 60%;
+    padding-left: 5%;
+}
+.imgpopulaires2 {
+    background-image: url("./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0px 0px 15px;
+}
+.imgpopulaires3 {
+    background-image: url("./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0px 0px 15px;
+}
+/*Activités*/
+.activites {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.blocactivites {
+    width: 100%;
+    height: 600px;
+}
+.blocactivites2356{
+    width: 23%;
+    height: 600px;
+}
+.imgactivites1 {
+    background-image: url("./images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0px 0px;
+}
+.imgactivites2 {
+    background-image: url("./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 250px;
+    border-radius: 15px 15px 0px 0px;
+}
+.imgactivites3 {
+    background-image: url("./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+    border-radius: 15px 15px 0px 0px;
+}
+.imgactivites4 {
+    background-image: url("./images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0px 0px;
+}
+.imgactivites5 {
+    background-image: url("./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0px 0px;
+}
+.imgactivites6 {
+    background-image: url("./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0px 0px;
+}
+.cubeactivites {
+    width: 23%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+.cubeactivites:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.cubeactivites2356{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+.cubeactivites2356:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.hauteurtitre {
+    height: 70px;
+}
+.titreactivites {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5%;
+    width: 95%;
+}
+/*Footer*/
+.footer{
+    height: 300px;
+    margin-top: 100px;
+}
+.tailleblocfooter {
+height: 150px;
+}
+.margblocfooter1 {
+    margin-left: 5%;
+}
+.margblocfooter2 {
+    margin-right: 15%;
+}
+.lienfooter {
+    color: black;
+}
+.divlienfooter {
+    height: 30px;
+}
+/* Responsive*/
+@media screen and (max-width: 1280px) {
+    .sizelien12 {
+        margin-left: 35%;
+    }
+    .cubedetailHebergements {
+        min-height: 150px;
+    }
+    .sizehebergements {
+        min-height: auto;
+    }
+}
