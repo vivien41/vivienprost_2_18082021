@@ -290,7 +290,7 @@ margin-top: 10px;
 .cubepopulaires {
     background-color: white;
     height: auto;
-    padding: 1% 0px 1px 1px;
+    padding: 1px 0px 1px 1px;
     border-radius: 20px;
 }
 .cubepopulaires:hover {
@@ -430,7 +430,24 @@ height: 150px;
     height: 30px;
 }
 /* Responsive*/
-@media screen and (max-width: 1280px) {
+@media (max-width: 1700px) {
+    .cubedetailHebergements {
+        min-height: 150px;
+    }
+    .sizehebergements {
+        min-height: auto;
+        padding: 20px;
+    }
+    .sizepopulaire {
+        min-height: auto;
+        padding: 20px;
+    }
+    .tablettessizepopulaire {
+        margin-top: 0%;
+    }
+}
+/*Tablette*/
+@media (max-width: 1295px) and (min-width: 860px) { 
     .sizelien12 {
         margin-left: 35%;
     }
@@ -439,5 +456,18 @@ height: 150px;
     }
     .sizehebergements {
         min-height: auto;
+        padding: 20px;
+    }
+    .sizepopulaire {
+        min-height: auto;
+        padding: 20px;
+    }
+    .tablettessizepopulaire {
+        margin-top: 0%;
+    }
+}
+@media screen and (max-width: 990px) {
+    .mobilefiltre {
+        flex-direction: column;
     }
 }
