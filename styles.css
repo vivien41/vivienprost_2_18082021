@@ -115,6 +115,7 @@ body {
     padding-left: 20px;
 }
 .buttonsearch {
+    min-width: 150px;
     height: 50px;
     width: 200px;
     color: white;
@@ -173,6 +174,9 @@ section .filtresicone:first-child {
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 0px 25px 25px 0px;
+}
+.desktopnone {
+    display: none;
 }
 /* info icone */
 .info {
@@ -260,6 +264,7 @@ section .filtresicone:first-child {
     background-color: white;
     padding: 1%;
     border-radius: 20px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
 .cubeHebergements:hover {
     cursor: pointer;
@@ -469,5 +474,170 @@ height: 150px;
 @media screen and (max-width: 990px) {
     .mobilefiltre {
         flex-direction: column;
+        align-items: flex-start;
+    }
+    .filtrestexteIcone {
+        margin-bottom: 20px;
+    }
+    #hebergement {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .blocpopulaires {
+        flex: none;
+        width: 90%;
+        margin-left: 0%;
+        padding: 5%;
+    }
+    .blocHebergements {
+        flex: none;
+        width: 90%;
+        margin-right: 0%;
+        margin-top: 50px;
+        padding: 5%;
+    }
+}
+@media  screen and (max-width: 850px) {
+    .sizeliens {
+        width: 90%;
+    }
+    .sizelien12 {
+        margin-left: 20%;
+    }
+    .blocHebergements {
+        height: auto;
+    }
+    .bloc1 {
+        flex-direction: column;
+        margin-bottom: 0%;
+    }
+    .bloc2 {
+        flex-direction: column;
+        margin-top: 0%;
+    }
+    .cubeHebergements {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .cubedetailHebergements {
+        min-height: auto;
+    }
+    .blocactivites {
+        flex-direction: column;
+        height: auto;
+    }
+    .cubeactivites {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .blocactivites2356 {
+        width: 100%;
+        height: auto;
+    }
+    .cubeactivites2356 {
+        margin-bottom: 50px;
+    }
+    .imgactivites1 {
+        height: 200px;
+    }
+    .imgactivites2 {
+        height: 200px;
+    }
+    .imgactivites3 {
+        height: 200px;
+    }
+    .imgactivites4 {
+        height: 200px;
+    }
+    .imgactivites5 {
+        height: 200px;
+    }
+    .imgactivites6 {
+        height: 200px;
+    }
+    .footer {
+        flex-direction: column;
+        height: auto;
+        align-items: flex-start;
+        padding: 20px;
+    }
+    .margblocfooter1 {
+        margin-left: 0%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .sizelien12 {
+        order: 1;
+        width: 100%;
+        margin-left: 0%;
+    }
+    .sizeliens {
+        flex-direction: row;
+    }
+    .sizelienmobile {
+        width: 50%;
+        border-top: none;
+        border-bottom: 5px solid #f2f2f2;
+    }
+    .sizelienmobile:hover {
+        border-top: none;
+        border-bottom: 5px solid #0065fc;
+    }
+    .sizeliens {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .rechercher {
+        width: 200px;
+    }
+    .bordursearch {
+        min-width: 300px;
+        border: none;
+        border-top: 1px solid #f2f2f2;
+        border-bottom: 1px solid #f2f2f2;
+    }
+    .buttonsearch {
+        width: 50px;
+        border-radius: 15px;
+    }
+    .desktopnone {
+        display: block;
+    }
+    .mobilenone {
+        display: none;
+    }
+    .margefiltres {
+        padding-left: 5%;
+    }
+    .mobileeconomique {
+        margin-right: 5px;
+    }
+    .mobilefamilial {
+        margin-right: 0px;
+    }
+    .filtrestexte {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .info {
+        padding-left: 5%;
+    }
+    .blocpopulaires {
+        border-radius: 0%;
+    }
+    .blocHebergements {
+        background-color: white;
+    }
+    .mobiletitre {
+        padding-left: 5%;
+    }
+    .blocactivites {
+        padding: 5%;
+        width: 90%;
+    }
+    html,body {
+        margin: 0%;
+        padding: 0%;
     }
 }

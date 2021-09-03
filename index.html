@@ -16,43 +16,46 @@
 <body>
     <nav>
         <div class="sizeliens flexBetween">
-        <div>
+        <div class="mobiletitre">
             <img class="margelogo"
              src="images/logo/Reservia@3x.png" alt="logo Reservia" width="120" height="50"></div>
-        
             <div class="sizelien12 flexCentre">
-
-            
-        <div class="sizelien flexCentre bordurenav">        
-            <a class="sizeliens colorliens13 decorationnone" href="#hebergement">Hébergement</a></div>
-        <div class="sizelien flexCentre bordurenav">
-            <a class="colorliens2 decorationnone" href="#activites">Activités</a></div>
+        <div class="sizelien sizelienmobile flexCentre bordurenav">        
+            <a class="flexCentre sizeliens colorliens13 decorationnone" href="#hebergement">Hébergement</a></div>
+        <div class="sizelien sizelienmobile flexCentre bordurenav">
+            <a class="flexCentre sizeliens colorliens2 decorationnone" href="#activites">Activités</a></div>
             </div>
         <div class="sizelien flexCentre bordurenav">
-            <a class=" texteGras colorliens13 decorationnone" href="#">S'inscrire</a></div>
+            <a class="flexCentre sizeliens texteGras colorliens13 decorationnone" href="#">S'inscrire</a></div>
         </div>
     </nav>
         <div>
-            <h1 class="title">Trouver votre hébergement pour des vacances de rêve</h1>
-            <p class="subtitle">En plein centre de ville ou en pleine nature</p>
+            <h1 class="mobiletitre title">Trouver votre hébergement pour des vacances de rêve</h1>
+            <p class="mobiletitre subtitle">En plein centre de ville ou en pleine nature</p>
         </div> 
         <div class="flexCentre bordursearch">
             <div class="backgris flexCentre iconesize">
                 <i class="fas fa-map-marker-alt"></i></div>
             <div>
                 <input class="rechercher flexCentre bordurnone paddingsearch" type="search" value="Marseille,France"/></div>
-            <div class="backbleu flexCentre buttonsearch">Rechercher</div>
+            <div class="backbleu flexCentre buttonsearch">
+                <span class="mobilenone">Rechercher</span>
+                <span class="desktopnone"><i class="fas fa-search"></i></span>
+            </div>
         </div>
         <div class=" mobilefiltre Filtres margefiltres">
         <div class="margefiltresTitre"><h3>Filtres</h3></div>
-        <div class=" flexBetween filtrestexteIcone">
+        <div class="flexAround">
+        <div class="mobileeconomique flexBetween filtrestexteIcone">
             <i class="fas fa-money-bill-wave flexCentre fa-lg filtresIcone icone"></i>
             <div class="filtrestexte flexCentre">Economique</div>
         </div>
-        <div class=" flexBetween filtrestexteIcone">
+        <div class="mobilefamilial flexBetween filtrestexteIcone">
             <i class="fas fa-child fa-lg filtresIcone flexCentre"></i>
             <div class="filtrestexte flexCentre">Familial</div>
         </div>
+        </div>
+        <div class="mobilefiltre flexAround">
         <div class=" flexBetween filtrestexteIcone">
             <i class="fas fa-heart fa-lg filtresIcone flexCentre"></i>
             <div class="filtrestexte flexCentre">Romantique</div>
@@ -60,6 +63,7 @@
         <div class="filtrestexteIcone flexBetween">
             <i class="fas fa-dog fa-lg filtresIcone flexCentre"></i>
             <div class="filtrestexte flexCentre">Animaux autorisés</div>
+        </div>
         </div>
         </div>
     <div class="info">
@@ -215,7 +219,7 @@
     </div>
     </section>
     <section id="activites" class="Activités">
-        <h2>Activités à Marseille</h2>
+        <h2 class="mobiletitre">Activités à Marseille</h2>
         <div class="blocactivites flexBetween">
             <div class="cubeactivites flexColumnCentre">
                 <div class="imgactivites1"></div>
